@@ -1,5 +1,5 @@
 # mixtape-bandcamp
-Scrapes bandcamp to generate parsed JSONStreams.
+Scrapes bandcamp to generate parsed JSONStreams for mixtape.
 
 ## Example
 
