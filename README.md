@@ -1,4 +1,2 @@
-mixtape-bandcamp
-================
-
-Scrapes bandcamp for music to generate a JSON stream"
+# mixtape-bandcamp
+Scrapes bandcamp to generate JSON streams.
