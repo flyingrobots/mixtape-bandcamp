@@ -1,2 +1,13 @@
 # mixtape-bandcamp
-Scrapes bandcamp to generate JSON streams.
+Scrapes bandcamp to generate parsed JSONStreams.
+
+## Example
+
+    var bandcamp = require("mixtape-bandcamp");
+    var JSONStream = require("JSONStream");
+
+    var stringify = JSONStream.stringify();
+    stringify.pipe(process.stdout);
+
+    var bands = bandcamp.findBands("daft punk");
+    bands.pipe(stringify);
