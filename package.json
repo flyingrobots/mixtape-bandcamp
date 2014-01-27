@@ -1,0 +1,30 @@
+{
+  "name": "mixtape-bandcamp",
+  "version": "0.0.0",
+  "description": "Scrapes bandcamp for music to generate a JSON stream",
+  "main": "mixtape-bandcamp.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flyingrobots/mixtape-bandcamp.git"
+  },
+  "keywords": [
+    "mixtape",
+    "music",
+    "bandcamp"
+  ],
+  "author": "James Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flyingrobots/mixtape-bandcamp/issues"
+  },
+  "dependencies": {
+    "request": "~2.33.0",
+    "JSONStream": "~0.7.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.8"
+  }
+}
