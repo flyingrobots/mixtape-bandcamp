@@ -16,7 +16,7 @@ Scrapes bandcamp to generate parsed JSONStreams for mixtape. More specifically, 
 
 ## findBands
 
-Searches the bandcamp bands database and streams the results.
+Searches bandcamp for bands and streams the results.
 
 ### Example
 
