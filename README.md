@@ -1,7 +1,7 @@
 # mixtape-bandcamp
-Scrapes bandcamp to generate parsed JSONStreams for mixtape.
+Scrapes bandcamp to generate parsed JSONStreams for mixtape. More specifically, it wraps the bandcamp REST API to produce streams of JSON objects for your app to consume.
 
-## Example
+## Example:
 
     var bandcamp = require("mixtape-bandcamp");
     var JSONStream = require("JSONStream");
